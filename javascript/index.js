@@ -40,7 +40,9 @@ function updateCity(event) {
       <div class="time-display">
         ${cityTime.format("h:mm:ss")} <small>${cityTime.format("A")} </small>
       </div>
-    </div>`;
+    </div>
+    <a href="/">All Cities<a>
+    `;
 }
 updateTime();
 setInterval(updateTime, 1000);
